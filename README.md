@@ -22,10 +22,11 @@ Author: Yuwei Liang
 ## <span id="intro">简介</span>
 中国手语 - Chinese Sign Language (CSL)     
 
+**数据采集系统架构和采集流程详见Github 仓库```sign_language_robot```中```arm_hand_capture```包的[README](https://github.com/liangyuwei/sign_language_robot/blob/master/arm_hand_capture/README.md)。**
+
 本仓库记录每次采集手语示教数据的统计结果。    
 
-示教数据包含手臂运动数据（动捕）、手指运动数据（数据手套）和对应的视频，经由ROS message_filter同步，以rosbag的形式保存。详见[sign_language_robot](https://github.com/liangyuwei/sign_language_robot/arm_hand_capture)仓库。    
-
+示教数据包含手臂运动数据（动捕）、手指运动数据（数据手套）和对应的视频，经由ROS message_filter同步，以rosbag的形式保存。
 
 ## <span id="2020-11-27">手语示教数据统计记录 - 2020年11月27日，星期五</span>
 
@@ -37,8 +38,6 @@ Author: Yuwei Liang
 ```lr_all_open.bag, lr_all_close.bag```: 在手掌展平的情况下，张开五指或合拢五指。    
 ```lr_thumb_s14_90.bag```: 拇指绕食指旋转90°，用于标定手套的S14传感器。  
 ```lr_index_middle_crossover.bag```: 食指、中指交叉，用于类似中国手语里的“是”动作。   
-
-详见Github 仓库```sign_language_robot```中```arm_hand_capture```包的[README](https://github.com/liangyuwei/sign_language_robot/arm_hand_capture/README.md)。   
 
 
 #### <span id="data-2020-11-27">手语词句统计表</span>
